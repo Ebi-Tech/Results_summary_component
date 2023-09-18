@@ -6,9 +6,9 @@ const LeftSide = () => {
         bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue'>
           <h2 className='text-Light-lavender text-[15px] font-semibold'>Your Result</h2>
           <button className='flex flex-col  rounded-full items-center justify-center 
-           w-36 h-36 p-10 bg-gradient-to-b from-Violet-blue to-Persian-blue '>
-            <p className='text-White text-[50px] font-black '>76</p>
-            <p className='text-Light-lavender text-[14px] '>of 100</p>
+           w-36 h-36 p-5 bg-gradient-to-b from-Persian-blue to-Violet-blue '>
+            <p className='text-White text-[45px] font-black '>76</p>
+            <p className='text-Light-lavender text-[11px] '>of 100</p>
           </button>
           <div className=' flex flex-col items-center'>
           <p className='text-White text-[20px] font-bold'>Great</p>
