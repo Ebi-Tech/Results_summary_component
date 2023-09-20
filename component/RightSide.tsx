@@ -8,7 +8,9 @@ import visual from "@/public/assets/images/icon-visual.svg"
 
 const RightSide = () => {
   return (
-    <div className='w-[50%] h-full p-5 flex flex-col gap-4 '>
+    <div className='w-[50%] h-full p-4 flex flex-col py-10 justify-between
+    mobile:h-[55%] mobile:w-full mobile:px-8 mobile:py-4
+    mobileBig:h-[60%] mobileBig:w-full mobileBig:px-8 mobileBig:py-6'>
         <h2>Summary</h2>
         
         <div className='flex flex-col'>
