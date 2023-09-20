@@ -2,7 +2,7 @@ import React from 'react'
 
 const LeftSide = () => {
   return (
-    <div className='w-[50%] h=full flex flex-col items-center p-18 justify-center gap-5 rounded-2xl
+    <div className='w-[50%] h-full flex flex-col items-center p-18 justify-center gap-5 rounded-2xl
         bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue'>
           <h2 className='text-Light-lavender text-[15px] font-semibold'>Your Result</h2>
           <button className='flex flex-col  rounded-full items-center justify-center 

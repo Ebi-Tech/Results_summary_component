@@ -6,10 +6,10 @@ import visual from "@/public/assets/images/icon-visual.svg"
 
 const RightSide = () => {
   return (
-    <div className='w-[50%] h=full p-5 flex flex-col gap-4 '>
+    <div className='w-[50%] h-full p-5 flex flex-col gap-4 '>
         <h2>Summary</h2>
-        <div className='flex flex-col   '>
-
+        
+        <div className='flex flex-col'>
             <button className='flex flex-row w-full p-1 rounded-lg font-semibold items-centre
              bg-Light-red bg-opacity-5'>
                 <Image src={reaction} alt='react' width={20} priority className='mr-4'/>
@@ -38,8 +38,9 @@ const RightSide = () => {
                 <p className='text-[14px] '>72  <span className='text-Light-lavender'>  /  100</span></p>
             </button>
         </div>
+        
         <button className='flex flex-row  rounded-full items-center justify-center 
-           w-full h-1 p-5 bg-gradient-to-b from-Violet-blue to-Persian-blue '>
+        w-full h-1 p-5 bg-gradient-to-b from-Violet-blue to-Persian-blue'>
             <p className='text-White text-[14px] font-semibold '>Continue</p>
   </button>
     </div>
