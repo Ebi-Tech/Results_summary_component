@@ -1,11 +1,25 @@
-"use strict";
-exports.__esModule = true;
-var LeftSide_1 = require("@/component/LeftSide");
-var RightSide_1 = require("@/component/RightSide");
-function Home() {
-    return (React.createElement("main", { className: "flex bg-White w-screen h-screen items-center justify-center p-24" },
-        React.createElement("div", { className: 'flex w-[45%] h-[85%] bg-White shadow-2xl rounded-xl overflow-hidden ' },
-            React.createElement(LeftSide_1["default"], null),
-            React.createElement(RightSide_1["default"], null))));
+"use client";
+
+import LeftSide from "./component/LeftSide";
+import RightSide from "./component/RightSide";
+
+export default function Home() {
+  return (
+    <div
+      className="w-screen h-screen bg-Off-White flex items-center justify-center p-4
+    mobile:p-0
+    mobileBig:p-0
+    "
+    >
+      <div
+        className="w-[45%] h-[70%] bg-Off-White shadow-2xl shadow-Green-teal/20 rounded-3xl overflow-hidden text-Dark-gray-blue flex
+      mobile:flex-col mobile:w-full mobile:h-full mobile:rounded-none
+      mobileBig:flex-col mobileBig:w-full mobileBig:h-full mobileBig:rounded-none
+      "
+      >
+        <LeftSide />
+        <RightSide />
+      </div>
+    </div>
+  );
 }
-exports["default"] = Home;

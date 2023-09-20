@@ -1,3 +1,5 @@
+"use client";
+
 const LeftSide = () => {
   return (
     <div className='w-[50%] h-full flex flex-col items-center p-18 justify-center gap-5 rounded-2xl

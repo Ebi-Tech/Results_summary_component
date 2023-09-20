@@ -1,3 +1,5 @@
+"use client";
+import React from 'react';
 import Image from 'next/image'
 import reaction from "@/public/assets/images/icon-reaction.svg"
 import memory from "@/public/assets/images/icon-memory.svg"
