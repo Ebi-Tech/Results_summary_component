@@ -1,7 +1,7 @@
 "use client";
 
-import LeftSide from "./component/LeftSide";
-import RightSide from "./component/RightSide";
+import LeftSide from "@/component/LeftSide";
+import RightSide from "@/component/RightSide";
 
 export default function Home() {
   return (
