@@ -2,8 +2,8 @@
 
 const LeftSide = () => {
   return (
-    <div className='w-[50%] h-full flex flex-col items-center p-18 justify-center gap-5 rounded-2xl
-        bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue overflow-hidden mx-auto py-10
+    <div className='w-[50%] h-full flex flex-col items-center p-4 justify-between  rounded-3xl
+      bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue overflow-hidden mx-auto py-10
       mobile:w-full mobile:h-[45%]  mobile:rounded-none mobile:py-1 mobile:rounded-b-3xl mobile:my-0
       mobileBig:w-full mobileBig:h-[40%]  mobileBig:rounded-none mobileBig:py-2 mobileBig:rounded-b-3xl mobileBig:m-0'>
           <h2 className='text-Light-lavender text-[15px] font-semibold'>Your Result</h2>
