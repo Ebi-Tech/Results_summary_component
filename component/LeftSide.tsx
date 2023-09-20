@@ -1,5 +1,3 @@
-import React from 'react'
-
 const LeftSide = () => {
   return (
     <div className='w-[50%] h-full flex flex-col items-center p-18 justify-center gap-5 rounded-2xl
@@ -8,7 +6,7 @@ const LeftSide = () => {
           <button className='flex flex-col  rounded-full items-center justify-center 
            w-36 h-36 p-5 bg-gradient-to-b from-Persian-blue to-Violet-blue '>
             <p className='text-White text-[45px] font-black '>76</p>
-            <p className='text-Light-lavender text-[11px] '>of 100</p>
+            <p className='text-Light-lavender text-[10px] '>of 100</p>
           </button>
           <div className=' flex flex-col items-center'>
           <p className='text-White text-[20px] font-bold'>Great</p>
